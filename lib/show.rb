@@ -26,13 +26,13 @@ class Show
     c3 = colorize_symbol(board.cases["C3"].value)
 
     puts "      1   2   3"
-    puts "    -------------"
+    puts "   -------------"
     puts " A | #{a1} | #{a2} | #{a3} |"
-    puts "    -------------"
+    puts "   -------------"
     puts " B | #{b1} | #{b2} | #{b3} |"
-    puts "    -------------"
+    puts "   -------------"
     puts " C | #{c1} | #{c2} | #{c3} |"
-    puts "    -------------"
+    puts "   -------------"
   end
 
   def self.display_welcome
