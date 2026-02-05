@@ -86,7 +86,7 @@ You will be prompted to:
 
 ```
 TIC-TAC-TOE
-Round n° 3
+Round n° 1
 ```
 
 
