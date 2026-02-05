@@ -69,7 +69,7 @@ You will be prompted to:
 - Continue until a win or a draw
 - Choose whether to start a new game
 
------------------
+---
 
 ### 🧪 Try playing through:
 
@@ -79,6 +79,8 @@ You will be prompted to:
 - Selecting a taken cell
 - Starting a new game
 - Everything should behave as expected.
+
+---
 
 ## 🎮 Gameplay Example
 
@@ -115,6 +117,8 @@ Choose a cell: C2
 ```
 Alice won yeaaaah 
 
+---
+
 ## 🧬 Object-Oriented Design
 
 Classes
@@ -128,7 +132,7 @@ Show	Handles display and terminal output
 
 This architecture follows clean responsibility separation and full OOP design.
 
-
+---
 
 ## 📜 License & Author
 
