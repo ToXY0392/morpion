@@ -40,7 +40,7 @@ It was created as part of The Hacking Project bootcamp to practice class archite
 
 ---
 
-## 🛠 Installation
+## 🛠 Installation & Testing
 
 Make sure you have Ruby installed (version 2.7+ recommended).
 
@@ -64,15 +64,23 @@ ruby app.rb
 ```
 You will be prompted to:
 
-Enter the names of Player 1 and Player 2
+- Enter the names of Player 1 and Player 2
+- Play by choosing positions like A1, B3, C2, etc.
+- Continue until a win or a draw
+- Choose whether to start a new game
 
-Play by choosing positions like A1, B3, C2, etc.
+-----------------
 
-Continue until a win or a draw
+### 🧪 Try playing through:
 
-Choose whether to start a new game
+- A normal win (horizontal, vertical, diagonal)
+- A draw (board full)
+- Invalid moves (Z2, A5, etc.)
+- Selecting a taken cell
+- Starting a new game
+- Everything should behave as expected.
 
-🎮 Gameplay Example
+## 🎮 Gameplay Example
 
 ```
 TIC-TAC-TOE
@@ -92,8 +100,23 @@ Round n° 3
 ```
 
 It's Alice's turn (O)
-Choose a cell: B3
-🧬 Object-Oriented Design
+
+Choose a cell: C2
+
+```      
+      1   2   3
+-----------------
+| A | X | O | X |
+-----------------
+| B |   | X |   |
+-----------------
+| C | O | O | O |
+-----------------
+```
+Alice won yeaaaah 
+
+## 🧬 Object-Oriented Design
+
 Classes
 Class	Responsibility
 Application	Manages game sessions + replay loop
@@ -105,21 +128,13 @@ Show	Handles display and terminal output
 
 This architecture follows clean responsibility separation and full OOP design.
 
-🧪 Testing
-Try playing through:
 
-A normal win (horizontal, vertical, diagonal)
 
-A draw (board full)
+## 📜 License & Author
 
-Invalid moves (Z2, A5, etc.)
-
-Selecting a taken cell
-
-Starting a new game
-
-Everything should behave as expected.
-
-📜 License
 This project is for educational use within The Hacking Project.
 Feel free to modify or improve it in your own fork.
+
+*Vincent MICHEL & Valentin CHERON*
+
+*The Hacking Project 2026*
