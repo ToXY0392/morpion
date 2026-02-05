@@ -4,6 +4,21 @@ This project is a complete implementation of a two-player Tic-Tac-Toe game writt
 It was created as part of The Hacking Project bootcamp to practice class architecture, abstraction, clean code, and terminal UI.
 
 ---
+## File Tree: morpion
+
+
+```
+├── 📁 lib
+│   ├── 💎 application.rb
+│   ├── 💎 board.rb
+│   ├── 💎 board_case.rb
+│   ├── 💎 game.rb
+│   ├── 💎 player.rb
+│   └── 💎 show.rb
+├── 📄 Gemfile
+├── 📝 README.md
+└── 💎 app.rb
+```
 
 ## 🧠 Features
 
@@ -58,19 +73,23 @@ Continue until a win or a draw
 Choose whether to start a new game
 
 🎮 Gameplay Example
-===============================
-           TIC-TAC-TOE
-           Round n° 3
-===============================
 
+```
+TIC-TAC-TOE
+Round n° 3
+```
+
+
+```      
       1   2   3
-    -------------
- A | X | O | X |
-    -------------
- B |   | X |   |
-    -------------
- C | O |   | O |
-    -------------
+-----------------
+| A | X | O | X |
+-----------------
+| B |   | X |   |
+-----------------
+| C | O |   | O |
+-----------------
+```
 
 It's Alice's turn (O)
 Choose a cell: B3
