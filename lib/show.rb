@@ -8,10 +8,10 @@ class Show
   def self.display_board(board, round)
     system("clear") || system("cls")
 
-    puts "==============================="
+    puts "========================================"
     puts "           MORPION".center(31)
     puts "        Tour n° #{round}".center(31)
-    puts "===============================\n\n"
+    puts "========================================\n\n"
 
     a1 = colorize_symbol(board.cases["A1"].value)
     a2 = colorize_symbol(board.cases["A2"].value)
@@ -25,7 +25,7 @@ class Show
     c2 = colorize_symbol(board.cases["C2"].value)
     c3 = colorize_symbol(board.cases["C3"].value)
 
-    puts "      1   2   3"
+    puts "     1   2   3"
     puts "   -------------"
     puts " A | #{a1} | #{a2} | #{a3} |"
     puts "   -------------"
