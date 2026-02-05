@@ -1,4 +1,4 @@
-# Tic-Tac-Toe (Ruby OOP Project)
+# Tic-Tac-Toe 
 
 This project is a complete implementation of a two-player Tic-Tac-Toe game written fully in Object-Oriented Ruby.  
 It was created as part of The Hacking Project bootcamp to practice class architecture, abstraction, clean code, and terminal UI.
